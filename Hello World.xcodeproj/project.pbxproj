@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		0832ACF8201BF66100E20FDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0832ACF7201BF66100E20FDA /* AppDelegate.swift */; };
-		0832ACFA201BF66100E20FDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0832ACF9201BF66100E20FDA /* ViewController.swift */; };
 		0832ACFD201BF66100E20FDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0832ACFB201BF66100E20FDA /* Main.storyboard */; };
 		0832ACFF201BF66100E20FDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0832ACFE201BF66100E20FDA /* Assets.xcassets */; };
 		0832AD02201BF66100E20FDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0832AD00201BF66100E20FDA /* LaunchScreen.storyboard */; };
+		0832AD0A201C01FE00E20FDA /* HelloWorldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0832AD09201C01FE00E20FDA /* HelloWorldViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0832ACF4201BF66100E20FDA /* Hello World.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hello World.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0832ACF7201BF66100E20FDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0832ACF9201BF66100E20FDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0832ACFC201BF66100E20FDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0832ACFE201BF66100E20FDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0832AD01201BF66100E20FDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0832AD03201BF66100E20FDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0832AD09201C01FE00E20FDA /* HelloWorldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +55,11 @@
 			isa = PBXGroup;
 			children = (
 				0832ACF7201BF66100E20FDA /* AppDelegate.swift */,
-				0832ACF9201BF66100E20FDA /* ViewController.swift */,
 				0832ACFB201BF66100E20FDA /* Main.storyboard */,
 				0832ACFE201BF66100E20FDA /* Assets.xcassets */,
 				0832AD00201BF66100E20FDA /* LaunchScreen.storyboard */,
 				0832AD03201BF66100E20FDA /* Info.plist */,
+				0832AD09201C01FE00E20FDA /* HelloWorldViewController.swift */,
 			);
 			path = "Hello World";
 			sourceTree = "<group>";
@@ -136,7 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0832ACFA201BF66100E20FDA /* ViewController.swift in Sources */,
+				0832AD0A201C01FE00E20FDA /* HelloWorldViewController.swift in Sources */,
 				0832ACF8201BF66100E20FDA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
